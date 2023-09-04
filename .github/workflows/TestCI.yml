@@ -20,5 +20,5 @@ jobs:
         with:
             image: joshieboshie/youtube-stats
             registry: docker.io
-            username: ${{ secrets.JoshieBoshie }}
-            password: ${{ secrets.yolorite3007 }}
+            username: ${{ secrets.DOCKER_USERNAME }}
+            password: ${{ secrets.DOCKER_PASSWORD }}
